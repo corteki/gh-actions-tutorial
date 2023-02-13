@@ -6,8 +6,6 @@ on:
         description: Provide a name
         required: true
         default: test
-  schedule:
-    - cron: '*/15 * * * *'
 
 jobs:
   echo:

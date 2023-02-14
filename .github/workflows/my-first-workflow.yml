@@ -9,9 +9,9 @@ on:
 jobs:
   build: 
     runs-on: ubuntu-latest
-      steps:
-        - run: |
-          echo "Building"
+    steps:
+      - run: |
+        echo "Building"
   test:
     runs-on: ubuntu-latest
     if: github.event_name == 'workflow_dispatch'
